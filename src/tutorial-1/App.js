@@ -7,7 +7,6 @@ const getCurrentDate = () => {
 };
 
 const Profile = (props) => {
-  console.log(props.children);
   return (
     <div className="card">
       <h1 className="heading">
