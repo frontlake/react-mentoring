@@ -4,7 +4,7 @@ import '../tutorial-5/bulma.min.css';
 import { Container, Box, Heading } from 'react-bulma-components';
 
 import CardComponent from './components/CardComponent';
-import Form from './components/FormComponent';
+import FormComponent from './components/FormComponent';
 
 const App = () => {
   const [comments, setComments] = React.useState([]);
@@ -51,7 +51,7 @@ const App = () => {
       </Box>
       <Box>
         <Heading textWeight="bold">Обратная связь:</Heading>
-        <Form createComment={createComment} />
+        <FormComponent createComment={createComment} />
       </Box>
     </Container>
   );
