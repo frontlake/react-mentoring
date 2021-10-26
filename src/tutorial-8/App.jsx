@@ -3,7 +3,7 @@ import React from 'react';
 export default function App() {
   const [users, setUsers] = React.useState([]);
 
-  const url = 'https://61784062bb979200171ff624.mockapi.io/usrs';
+  const url = 'https://61784062bb979200171ff624.mockapi.io/users';
 
   const getUsers = async () => {
     try {
